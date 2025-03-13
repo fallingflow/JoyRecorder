@@ -29,6 +29,8 @@ This project is established for Computer Vision lecture in 2025 1st semester ass
 - Recording
     - Press space bar to start recording
     - Display the current recording status in red text
+    - Press space bar again to stop recording
+    - The file name is saved in the format of the current date and time (hour-minute-second)
 
 ### Supported Format
 | Feature     | Description    |
