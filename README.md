@@ -35,4 +35,5 @@ This project is established for Computer Vision lecture in 2025 1st semester ass
 |-------------|----------------|
 | FPS         | 10, 20, **30** |
 | File format | .avi, **.mp4** |
+
 (bold means default value)
