@@ -1,4 +1,3 @@
-import numpy as np
 import cv2 as cv
 import datetime
 
@@ -23,7 +22,7 @@ while True:
     if mode == 0:
         cv.putText(frame, 'Preview mode: Press Space to start recording', (30, 30), cv.FONT_HERSHEY_SIMPLEX, 0.6, (255, 255, 255), 2)
         cv.putText(frame, 'Current FPS:' + str(fps_table[fps_index]), (30, 60), cv.FONT_HERSHEY_SIMPLEX, 0.6, (255, 255, 255), 2)
-        cv.putText(frame, 'Current Save Format: '+ str(format_table[format_index]), (30, 90), cv.FONT_HERSHEY_SIMPLEX, 0.6, (255, 255, 255), 2)
+        cv.putText(frame, 'Current File Format: '+ str(format_table[format_index]), (30, 90), cv.FONT_HERSHEY_SIMPLEX, 0.6, (255, 255, 255), 2)
     elif mode == 1:
         if out is not None:
             out.write(frame)
